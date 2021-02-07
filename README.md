@@ -93,9 +93,9 @@ Para ayudar al desarrollo, se provee una herramienta de autocorrección que prue
 Para instalar y hacer uso de la [herramienta de autocorrección](https://www.npmjs.com/package/autocorector) en el ordenador local, ejecuta los siguientes comandos en el directorio del proyecto:
 
 ```
-$ npm install -g autocorector     ## Instala el programa de test
-$ autocorector                    ## Pasa los tests al fichero a entregar
-............................      ## en el directorio de trabajo
+$ sudo npm install -g autocorector     ## Instala el programa de test
+$ autocorector                         ## Pasa los tests al fichero a entregar
+............................           ## en el directorio de trabajo
 ... (resultado de los tests)
 ```
 También se puede instalar como paquete local, en el caso de que no se dispongas de permisos en el ordenador desde el que estás trabajando:

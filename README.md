@@ -19,7 +19,7 @@ Esta práctica consiste en la modificación del proyecto de gestión de usuarios
 
 ## Descargar el código del proyecto
 
-Es necesario utilizar la **versión 12 de Node.js** para el desarrollo de esta práctica. El proyecto debe clonarse en el ordenador desde el que se está trabajando: 
+Es necesario utilizar la **versión 12.16.1 de Node.js** para el desarrollo de esta práctica. El proyecto debe clonarse en el ordenador desde el que se está trabajando: 
 
 ```
 $ git clone https://github.com/CORE-2020/Entrega6_sockets

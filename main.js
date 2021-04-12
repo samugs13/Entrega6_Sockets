@@ -9,7 +9,7 @@ let port = 8080;
 
 let server = net.createServer((socket)=>{
 
-  console.log("Se ha conectado un nuevo cliente desde", socket.remoteAddress);
+  console.log("Se ha conectado un nuevo cliente desde", socket.remoteAddress, socket.remotePort);
 
   socket
     .on('end', ()=> {rl.close();})

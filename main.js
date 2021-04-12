@@ -29,7 +29,10 @@ let server = net.createServer((socket)=>{
 
   rl.prompt();
 
-  rl.on('line', async (line) => {
+  rl
+  
+  .on ('close', ()=> console.log("Se ha ido un cliente"))
+  .on('line', async (line) => {
     try{
       let cmd = line.trim()
 
